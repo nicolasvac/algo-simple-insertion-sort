@@ -4,12 +4,11 @@
 
 #include <printf.h>
 
-#include "main.h"
 #include "insertion_sort.h"
 
 int main(int argc, char *argv[]) {
 
-    int vec[] = {12, 5, 3, 4, 8, 15, 7, 1};
+    int vec[] = {15, 14, 13, 12, 11};
 
     // Calculate the size of the vector
     int vec_size = sizeof(vec) / sizeof(int);
